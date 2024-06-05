@@ -7,7 +7,7 @@ const app = express();
 const port = process.env.PORT || 5000;
 
 app.use(cors({
-  "origin":"https://fasal-movie-library.vercel.app/",
+  "origin":"https://fasal-movie-library.vercel.app",
     "methods":["GET","POST","DELETE","UPDATE"],
     "credentials":true,
 }));
